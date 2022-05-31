@@ -6,7 +6,7 @@
         axios.get('https://maps.googleapis.com/maps/api/geocode/json',{
             params:{
                 address:location,
-                key:'AIzaSyBh9HwdpxpL08FWiEtujQqIY97ZaOq6iKk'
+                key:''
             }
         }).then((res=>{
             console.log(res.data)
